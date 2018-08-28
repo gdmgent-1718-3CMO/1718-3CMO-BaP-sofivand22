@@ -1,8 +1,8 @@
 // default-styling
 
 body {
-    font-family: $myfont-family-base;
-    font-weight: $font-weight-base;
+    font-family: fira sans;
+    font-weight: $font-weight-light;
     font-size: $font-size-base;
     line-height: $lineheight-base;
     background-color: $body-bg;
@@ -15,30 +15,38 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-weight: $font-weight-light;
-    font-size: 4rem;
-    color: $color-grey-2;
+   font-family: avenir;
+   font-weight: $font-weight-base; 
+   font-size: 4rem;
+    color: white;
 }
+
 h2 {
-    font-weight: $font-weight-light;
+    font-family: fira sans;
+    font-weight: $font-weight-base;
     font-size: 2rem;
     margin: 2rem 0 1rem;
+    color: rgb(92, 152, 201);
 }
+
+h3{
+    font-family: fira sans;
+    font-weight: $font-weight-base;
+    padding-bottom: 10px;
+}
+
 h3, h4, h5, h6 {
     font-size: 1rem;
     margin: 2rem 0 0;
 }
 a {
     text-decoration: none;
-    color: $body-link;
-    border-bottom: dotted 1px $body-link;
+    color: rgb(74, 119, 165);
     &:hover{
-        color: $body-link;
         text-decoration: none;
-        border-bottom: solid 1px $body-link;
+        border-bottom: solid 1px rgb(74, 119, 165);
     }
     &:active{
-        background-color: $body-link;
         color: $color-white;
     }
     &:focus{}
@@ -46,6 +54,102 @@ a {
 blockquote {
     padding-left: 24px;
     border-left: 2px solid $mycolor-5;
+}
+
+.blauwkader{
+    background-color: rgb(74, 119, 165);
+    padding-top: 100px;
+}
+
+.blauwkader h1{
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.blauwkader p{
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    border-top: 1px solid white;
+
+}
+
+.zwaard{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.content1 span{
+    color: rgb(74, 119, 165);
+}
+
+mark{
+    background-color: rgb(226, 244, 247) !important;
+}
+
+.zwaard2{
+    padding-bottom: 20px;
+    padding-left: 200px;
+}
+
+.zwaard3{
+    padding-top: 180px;
+    padding-left: 50px;
+}
+
+.zwaard4{
+    padding-left: 10px;
+}
+
+.zwaard5{
+    padding-left: 100px;
+    padding-top: 65px;
+}
+
+.download{
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 100px;
+    padding: 20px 80px 50px 80px;
+}
+
+.buttondownload{
+    background-color: rgb(74, 119, 165);
+    color: white;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.buttondownload:hover{
+    background-color: rgb(92, 152, 201);
+}
+
+.row .no-gutter{
+    padding-right:0;
+    padding-left:0;
+}
+
+.tekstbeneden{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.space{
+    margin-top: 100px;
+}
+
+.typo1{
+    padding-top: 100px;
+}
+
+.typo2{
+    margin-top: 30px;
 }
 
 // ongeordende lijstjes met een ander symbool of kleur

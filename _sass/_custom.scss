@@ -5,6 +5,20 @@
     border: none;
 }
 
+.navbar a:hover {
+  color:white !important;
+}
+
+.navbar-nav a:hover{
+  background-color: rgb(92, 152, 201);
+  transition-duration: 0.4s;
+}
+
+.navbar-nav a{
+  border-top: 1px solid rgb(230, 230, 230);
+}
+
+
 /* FOOTER
 ----------------------------------------------
 sticked to the bottom with small content pages
@@ -28,7 +42,7 @@ body {
 }
 
 footer {
-    background-color: $mycolor-2;
+    background-color: rgb(74, 119, 165);
     color: $color-white;
     a {
         color: $color-white;
@@ -49,7 +63,7 @@ footer {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color:$mycolor-3; /* Set a background color */
+  background-color: rgb(74, 119, 165); /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   //padding: 15px; /* Some padding */
@@ -58,6 +72,6 @@ footer {
   border-radius: 20px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
   &:hover {
-    background-color:$mycolor-5; 
+    background-color: rgb(92, 152, 201); 
   }
 }
