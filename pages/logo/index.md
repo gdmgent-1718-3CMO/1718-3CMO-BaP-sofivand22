@@ -73,5 +73,5 @@ title: Logo intro
 <div class="download">
 	<h2>Download</h2>
 	<p>Download hier het logo in verschillende formaten</p>
-	<a href="#"><button type="button" class="buttondownload">Download</button></a>
+	<a href="https://1drv.ms/f/s!AnWwX5MO7uUvhEzMvecaDPrQxw4K"><button type="button" class="buttondownload">Download</button></a>
 </div>
